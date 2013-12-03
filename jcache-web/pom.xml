@@ -36,12 +36,6 @@
       <groupId>org.infinispan</groupId>
       <artifactId>infinispan-jcache</artifactId>
       <version>6.0.0.Final</version>
-      <exclusions>
-        <exclusion>
-          <groupId>javax.enterprise</groupId>
-          <artifactId>cdi-api</artifactId>
-        </exclusion>
-      </exclusions>
     </dependency>
   </dependencies>
 </project>
