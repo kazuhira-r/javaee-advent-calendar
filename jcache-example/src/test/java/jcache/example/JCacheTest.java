@@ -45,7 +45,7 @@ public class JCacheTest {
 
             // イテレーション
             for (Cache.Entry<String, String> entry : cache) {
-                 // iteration...
+                 // ...
             }
         }
     }
