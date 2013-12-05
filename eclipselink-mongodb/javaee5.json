@@ -1,0 +1,10 @@
+{
+    "isbn": "978-4798120546",
+    "title": "マスタリングJavaEE5 第2版",
+    "price": 5670,
+    "publishDate": "2009-11-28T00:00:00+09:00",
+    "tags": ["java", "ejb", "jpa", "jax-ws"],
+    "authors": [
+        {"name": "斉藤 賢哉"}
+    ]
+}

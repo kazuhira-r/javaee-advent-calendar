@@ -1,0 +1,12 @@
+{
+    "isbn": "978-4873114675",
+    "title": "JavaによるRESTfulシステム構築",
+    "price": 3360,
+    "publishDate": "2010-08-23T09:00:00+09:00",
+    "tags": ["java", "jax-rs"],
+    "authors": [
+        {"name": "Bill Burke"},
+        {"name": "arton"},
+        {"name": "菅野 良二"}
+    ]
+}

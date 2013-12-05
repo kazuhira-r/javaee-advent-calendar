@@ -1,0 +1,10 @@
+{
+    "isbn": "978-4798124605",
+    "title": "Beginning Java EE 6 GlassFish 3で始めるエンタープライズJava",
+    "price": 4410,
+    "publishDate": "2012-03-09T00:00:00+09:00",
+    "tags": ["java", "ejb", "jpa", "jax-rs"],
+    "authors": [
+        {"name": "Antonio Goncalves"}
+    ]
+}

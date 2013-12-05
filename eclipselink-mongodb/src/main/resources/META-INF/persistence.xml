@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+             version="2.0" xmlns="http://java.sun.com/xml/ns/persistence">
+  <persistence-unit name="javaee7.web.pu.nosql.mongodb" transaction-type="JTA">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <properties>
+      <property name="eclipselink.target-database" value="org.eclipse.persistence.nosql.adapters.mongo.MongoPlatform" />
+      <property name="eclipselink.nosql.connection-spec" value="org.eclipse.persistence.nosql.adapters.mongo.MongoConnectionSpec" />
+
+      <!-- 接続先がデフォルト（localhost:27017）の場合は、指定しなくてもよい -->
+      <property name="eclipselink.nosql.property.mongo.host" value="localhost" />
+      <property name="eclipselink.nosql.property.mongo.port" value="27017" />
+
+      <!-- 使用するデータベース名 -->
+      <property name="eclipselink.nosql.property.mongo.db" value="testdb" />
+
+      <property name="eclipselink.logging.logger" value="JavaLogger" />
+      <property name="eclipselink.logging.level" value="FINEST" />
+    </properties>
+  </persistence-unit>
+</persistence>
