@@ -38,4 +38,8 @@
       <version>6.0.0.Final</version>
     </dependency>
   </dependencies>
+
+  <properties>
+    <failOnMissingWebXml>false</failOnMissingWebXml>
+  </properties>
 </project>
