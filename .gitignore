@@ -4,3 +4,11 @@
 *.jar
 *.war
 *.ear
+
+# Maven generate directory
+target
+
+# for Intellij IDEA
+.idea
+*.iml
+
